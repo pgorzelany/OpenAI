@@ -14,6 +14,8 @@ public extension Model {
     
     /// More capable than any GPT-3.5 model, able to do more complex tasks, and optimized for chat. Will be updated with our latest model iteration 2 weeks after it is released.
     static let gpt4 = "gpt-4"
+    /// GPT4 turbo
+    static let gpt4_turbo = "gpt-4-1106-preview"
     /// Snapshot of gpt-4 from March 14th 2023. Unlike gpt-4, this model will not receive updates, and will only be supported for a three month period ending on June 14th 2023.
     @available(*, deprecated, message: "Please upgrade to the newer model")
     static let gpt4_0314 = "gpt-4-0314"
